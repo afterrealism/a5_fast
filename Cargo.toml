@@ -1,0 +1,12 @@
+[package]
+name = "a5_fast"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "a5_fast"
+crate-type = ["cdylib"]
+
+[dependencies]
+a5 = "0.7"
+pyo3 = { version = "0.25", features = ["extension-module"] }
