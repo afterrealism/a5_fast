@@ -6,6 +6,7 @@ build-backend = "maturin"
 name = "a5_fast"
 version = "0.1.0"
 description = "Fast Python bindings for the A5 discrete global grid system"
+readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [
@@ -31,3 +32,13 @@ Repository = "https://github.com/afterrealism/a5_fast"
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+tag_format = "v$version"
+version_files = [
+    "pyproject.toml:version",
+    "Cargo.toml:version",
+]
+update_changelog_on_bump = true
