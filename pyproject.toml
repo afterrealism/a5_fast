@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "a5_fast"
-version = "0.2.0"
+version = "0.2.1"
 description = "Fast Python bindings for the A5 discrete global grid system"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -35,7 +35,7 @@ features = ["pyo3/extension-module"]
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.2.0"
+version = "0.2.1"
 tag_format = "v$version"
 version_files = [
     "pyproject.toml:version",
