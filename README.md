@@ -1,6 +1,6 @@
 # a5_fast
 
-Fast Python bindings for the [A5 discrete global grid system](https://github.com/afterrealism/a5), powered by Rust and PyO3.
+Fast Python bindings for the [A5 discrete global grid system](https://a5geo.org), powered by Rust and PyO3.
 
 ## Installation
 
